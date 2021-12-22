@@ -12,7 +12,7 @@ public class Main {
         System.out.println(icecreameWeight);
         int eggWeight = 280;
         System.out.println(eggWeight);
-        int generalWeight = bananaWeight + milkWeight + icecreameWeight + eggWeight;
+        float generalWeight = bananaWeight + milkWeight + icecreameWeight + eggWeight;
         System.out.println("Общий вес спорт завтрака " + generalWeight + " грамм");
         System.out.println("Общий вес спорт завтрака " + generalWeight / 1000 + "кг");
     }
